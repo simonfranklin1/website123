@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar } from './components'
-import { Start } from './containers'
+import { Start, WeOffer } from './containers'
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Start />
+      <WeOffer />
     </div>
   )
 }
