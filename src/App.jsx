@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar } from './components'
-import { Start, WeOffer } from './containers'
+import { Reports, Start, WeOffer } from './containers'
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
       <Navbar />
       <Start />
       <WeOffer />
+      <Reports />
     </div>
   )
 }
