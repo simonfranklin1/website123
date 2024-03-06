@@ -4,3 +4,11 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+#section1 img {
+    margin-bottom: 20px;
+}
+
+#section1 p {
+    margin-top: 10px;
+}

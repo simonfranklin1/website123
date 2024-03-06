@@ -8,10 +8,10 @@ const Start = () => {
             <div className="card4">
                 <div className="card-content4">
                     <div className="card-image4">
-                        <img style={{ marginBottom: "20px" }} src="https://cdn-icons-png.flaticon.com/512/3447/3447513.png"
+                        <img src="https://cdn-icons-png.flaticon.com/512/3447/3447513.png"
                             alt="Mensagens" />
                     </div>
-                    <p className="card-text4" style={{ marginTop: "10px" }}>Centralize e otimize sua comunicação no WhatsApp em
+                    <p className="card-text4">Centralize e otimize sua comunicação no WhatsApp em
                         nossa plataforma em nuvem.
                     </p>
                     <CustomButton title={"VAMOS COMEÇAR?"} handleClick={() => window.location.href='#section2'} />

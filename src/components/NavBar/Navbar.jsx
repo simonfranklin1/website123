@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
     <header>
         <nav className="nav-tela-grande">
-            <a href="#section1">INICIO</a>
+            <a href="#section1">INÍCIO</a>
             <a href="#section2">OFERECEMOS</a>
-            <a href="#section3">RELATORIOS</a>
+            <a href="#section3">RELATÓRIOS</a>
             <a href="#section4">WHATSAPP'S</a>
             <a href="#section5">AUTOMAÇÕES</a>
             <a href="#section6">API</a>
@@ -17,7 +17,7 @@ const Navbar = () => {
         <nav className="nav-tela-pequena">
             <div className="navbar">
                 <div className="dropdown">
-                    <button className="dropbtn">PAGINAS
+                    <button className="dropbtn">PÁGINAS
                         <i className="fa fa-caret-down"></i>
                     </button>
                     <div className="dropdown-content">

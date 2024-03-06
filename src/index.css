@@ -82,6 +82,14 @@ section {
 
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  max-height: 100%;
+}
+
 .card-left,
 .card-right {
   flex: 1;
@@ -123,7 +131,6 @@ section {
   width: 200px;
   height: auto;
 }
-
 
 .card4 {
   background-color: transparent;
@@ -168,65 +175,65 @@ button:hover {
 @media (max-width: 768px) {
 
   section {
-      padding: 30px;
-      height: auto;
-      min-height: 100vh;
+    padding: 30px;
+    height: auto;
+    min-height: 100vh;
   }
 
   .card-container {
-      flex-direction: column;
-      align-items: center;
-      /* Centraliza os cartões na tela */
+    flex-direction: column;
+    align-items: center;
+    /* Centraliza os cartões na tela */
   }
 
   .card {
-      margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   .card-title {
-      font-size: 16px;
-      margin-bottom: 0px;
-      padding-left: 5px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding-left: 5px;
   }
 
   .card-image {
-      margin: 0px;
+    margin: 0px;
   }
 
   .card-image img {
-      margin-top: 50px;
-      margin-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 5px;
   }
 
   .card-text {
-      font-size: 15px;
-      line-height: 1.3;
-      font-family: 'Nunito', sans-serif;
-      margin: 0px;
+    font-size: 15px;
+    line-height: 1.3;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
   }
 
   .title-page-green {
-      font-size: 23px;
-      margin-bottom: 30px;
+    font-size: 23px;
+    margin-bottom: 30px;
   }
 
   .title-page-withe {
-      font-size: 25px;
-      margin-bottom: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
   }
 
   .card3 {
-      flex-direction: column;
+    flex-direction: column;
   }
 
 }
 
 @media (max-width: 450px) {
   .card4 {
-      padding: 0;
+    padding: 0;
   }
 
   .card3 {
-      max-width: 100%;
+    max-width: 100%;
   }
 }

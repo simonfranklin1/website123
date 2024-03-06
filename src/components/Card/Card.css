@@ -28,14 +28,6 @@
     margin: 50px;
 }
 
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    max-height: 100%;
-    overflow-y: auto;
-}
-
 .card-title,
 .title-card {
     color: #20CD8D;

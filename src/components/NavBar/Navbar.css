@@ -16,7 +16,11 @@ nav a {
     position: relative;
 }
 
-nav a:after {
+nav a:active {
+    font-weight: bold;
+}
+
+.nav-tela-grande a:after {
     content: "";
     position: absolute;
     bottom: -15px;
@@ -28,7 +32,7 @@ nav a:after {
     width: 0%;
 }
 
-nav a:hover:after {
+.nav-tela-grande a:hover:after {
     width: 100%;
     display: block;
 }
@@ -52,10 +56,6 @@ section {
 
 .nav-tela-pequena {
     display: none;
-}
-
-nav a.active {
-    font-weight: bold;
 }
 
 @media (max-width: 768px) {
