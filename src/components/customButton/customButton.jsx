@@ -2,7 +2,7 @@ import "./CustomButton.css"
 
 const CustomButton = ({ title, handleClick }) => {
     return (
-        <button className="Button-inicial" onClick={handleClick}>
+        <button className="cta-button" onClick={handleClick}>
             {title}
         </button>
     )

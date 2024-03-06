@@ -1,6 +1,5 @@
-import './App.css'
 import { Navbar } from './components'
-import { Reports, Start, WeOffer } from './containers'
+import { Reports, Start, WeOffer, WhatsAppConnections } from './containers'
 
 function App() {
 
@@ -10,6 +9,7 @@ function App() {
       <Start />
       <WeOffer />
       <Reports />
+      <WhatsAppConnections />
     </div>
   )
 }
