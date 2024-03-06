@@ -1,7 +1,9 @@
+import "./WeOffer.css";
+
 const WeOffer = () => {
   return (
     
-    <section id="section2" style={{ background: "#182527" }}>
+    <section id="section2">
         <div className="card3">
             <div className="card-left">
                 <div className="card-image">

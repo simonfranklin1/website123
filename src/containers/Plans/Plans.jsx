@@ -1,18 +1,18 @@
-import React from 'react'
+import "./Plans.css";
 
 const Plans = () => {
     return (
-        <section id="section8" style={{ background: "#182527" }}>
+        <section id="section8">
             <h2 className="title-page-withe">Nossos Planos</h2>
             <div className="card-container">
                 <div className="card">
                     <div className="card-content">
                         <div className="card-icon">
                             <img src="https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle.png" alt="BOT" />
-                            <span style={{ fontSize: "40px", fontWeight: "bold", fontFamily: "fantasy" }}>R$ 20,00/M</span>
+                            <span>R$ 20,00/M</span>
                         </div>
                     </div>
-                    <p className="card-title-x" style={{ marginTop: "20px" }}>PLANO BÁSICO</p>
+                    <p className="card-title-x">PLANO BÁSICO</p>
                     <ul>
                         <li>Relatórios</li>
                         <li>Suporte Online</li>
@@ -23,10 +23,10 @@ const Plans = () => {
                     <div className="card-content">
                         <div className="card-icon">
                             <img src="https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle.png" alt="BOT" />
-                            <span style={{ fontSize: "40px", fontWeight: "bold", fontFamily: "fantasy" }}>R$ 45,90/M</span>
+                            <span>R$ 45,90/M</span>
                         </div>
                     </div>
-                    <p className="card-title-x" style={{ marginTop: "20px" }}>PLANO PRO</p>
+                    <p className="card-title-x">PLANO PRO</p>
                     <ul>
                         <li>Relatórios</li>
                         <li>Suporte Online</li>
@@ -38,10 +38,10 @@ const Plans = () => {
                     <div className="card-content">
                         <div className="card-icon">
                             <img src="https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle.png" alt="Descrição da imagem" />
-                            <span style={{ fontSize: "40px", fontWeight: "bold", fontFamily: "fantasy" }}>R$ 150,00/M</span>
+                            <span>R$ 150,00/M</span>
                         </div>
                     </div>
-                    <p className="card-title-x" style={{ marginTop: "20px" }}>PLANO PREMIUM</p>
+                    <p className="card-title-x">PLANO PREMIUM</p>
                     <ul>
                         <li>Relatórios</li>
                         <li>Suporte Online</li>

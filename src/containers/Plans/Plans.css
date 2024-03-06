@@ -1,0 +1,26 @@
+#section8 {
+    background-color: #182527;
+}
+
+#section8 .card-icon span {
+    font-size: "40px"; 
+    font-weight: "bold"; 
+    font-family: "fantasy";
+}
+
+.card-title-x {
+    color: #20CD8D;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    border-left: 5px solid #20CD8D;
+    margin-left: -15px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+@media (max-width: 450px) {
+    #section8 .card-icon span {
+        font-size: "25px"; 
+    }   
+}

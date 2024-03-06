@@ -17,34 +17,6 @@ section {
   align-items: center;
 }
 
-#section9 {
-  background-color: #20cd8d;
-}
-
-.Button-ref {
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-  width: 200px;
-}
-
-.Button-ref a {
-  text-decoration: none;
-  color: white;
-  display: block;
-}
-
-.Button-ref:hover {
-  background-color: #45a049;
-}
-
 .title-page-green {
   font-size: 40px;
   margin-bottom: 50px;
