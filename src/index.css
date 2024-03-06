@@ -8,3 +8,204 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-icon img {
+  width: 50px;
+  height: auto;
+}
+
+.card-image img {
+  display: block;
+  margin: 0 auto;
+  width: 220px;
+  height: auto;
+  margin: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 20px;
+  max-width: 600px;
+  flex: 1;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-title,
+.title-card {
+  color: #20CD8D;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.card-title-x {
+  color: #20CD8D;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  border-left: 5px solid #20CD8D;
+  margin-left: -15px;
+  padding-left: 10px;
+}
+
+
+.card-text {
+  margin-top: 0px;
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
+  max-width: 300px;
+}
+
+.card-image-title {
+  color: #20CD8D;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.card-image-text {
+  margin-top: 0px;
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
+  max-width: 300px;
+}
+
+.title-page-green {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #20CD8D;
+
+}
+
+.title-page-dark {
+  font-size: 40px;
+  color: #000;
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+}
+
+.title-page-withe {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+
+.card-left,
+.card-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.card-left,
+.card-right {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-right img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card3 {
+  display: flex;
+  overflow: hidden;
+  max-width: 80%;
+}
+
+.card-container4 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.card-image4 img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+}
+
+
+.card4 {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 20px;
+  max-width: 600px;
+  flex: 1;
+}
+
+.card-content4 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: center;
+}
+
+.card-text4 {
+  margin-top: 0px;
+  color: #666;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+
+button {
+  background-color: #182527;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1aa378;
+}
