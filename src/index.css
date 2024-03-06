@@ -17,14 +17,6 @@ section {
   align-items: center;
 }
 
-#section7 {
-  background-color: #fff;
-}
-
-#section8 {
-  background-color: #182527;
-}
-
 #section9 {
   background-color: #20cd8d;
 }
@@ -153,23 +145,7 @@ section {
   text-align: center;
 }
 
-button {
-  background-color: #182527;
-  color: #fff;
-  border: none;
-  border-radius: 20px;
-  padding: 40px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #1aa378;
-}
-
 @media (max-width: 768px) {
-
   section {
     padding: 30px;
     height: auto;

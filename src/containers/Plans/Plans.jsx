@@ -2,7 +2,7 @@ import React from 'react'
 
 const Plans = () => {
     return (
-        <section id="section8">
+        <section id="section8" style={{ background: "#182527" }}>
             <h2 class="title-page-withe">Nossos Planos</h2>
             <div class="card-container">
                 <div class="card">
