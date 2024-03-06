@@ -1,3 +1,4 @@
+import { CustomButton } from "../../components";
 import "./Start.css";
 
 const Start = () => {
@@ -13,7 +14,7 @@ const Start = () => {
                     <p className="card-text4" style={{ marginTop: "10px" }}>Centralize e otimize sua comunicação no WhatsApp em
                         nossa plataforma em nuvem.
                     </p>
-                    
+                    <CustomButton title={"VAMOS COMEÇAR?"} handleClick={() => window.location.href='#section2'} />
                 </div>
             </div>
         </div>

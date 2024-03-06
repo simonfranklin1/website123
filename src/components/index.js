@@ -1,8 +1,7 @@
 import Navbar from "./NavBar/Navbar";
-
+import CustomButton from "./CustomButton/CustomButton";
 
 export {
-    Navbar
+    Navbar,
+    CustomButton
 }
-
-() => window.location.href='#section2'

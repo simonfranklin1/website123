@@ -1,6 +1,6 @@
-import React from 'react'
+import "./CustomButton.css"
 
-const customButton = ({ title, handleClick }) => {
+const CustomButton = ({ title, handleClick }) => {
     return (
         <button className="Button-inicial" onClick={handleClick}>
             {title}
@@ -8,4 +8,4 @@ const customButton = ({ title, handleClick }) => {
     )
 }
 
-export default customButton
+export default CustomButton
