@@ -1,5 +1,5 @@
 import { Navbar } from './components'
-import { API, Automations, Reports, Start, Support, WeOffer, WhatsAppConnections } from './containers'
+import { API, Automations, Plans, Reports, Start, Support, WeOffer, WhatsAppConnections } from './containers'
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
       <Automations />
       <API />
       <Support />
+      <Plans />
     </div>
   )
 }

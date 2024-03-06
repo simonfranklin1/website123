@@ -5,6 +5,7 @@ import WhatsAppConnections from "./WhatsAppConnections/WhatsAppConnections";
 import Automations from "./Automations/Automations";
 import API from "./API/API";
 import Support from "./Support/Support";
+import Plans from "./Plans/Plans";
 
 export {
     Start,
@@ -13,5 +14,6 @@ export {
     WhatsAppConnections,
     Automations,
     API,
-    Support
+    Support,
+    Plans
 }

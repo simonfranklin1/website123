@@ -1,0 +1,21 @@
+#section5 {
+    background-color: #fff;
+}
+
+.card-image-title {
+    color: #20CD8D;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.card-image-text {
+    margin-top: 0px;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    max-width: 300px;
+}

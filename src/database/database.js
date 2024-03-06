@@ -26,3 +26,14 @@ export const whatsAppConnections = [
         text: "Conecte-se sem complicações: gere seu próprio QRCode e acesse o WhatsApp Web facilmente.",
     }
 ]
+
+export const automations = [
+    {
+        image: {
+            imageUrl: "https://neongoldfish.com/wp-content/uploads/2023/08/chatbot3.jpg",
+            alt: "Relatórios"
+        },
+        title: "",
+        text: ""
+    }
+]

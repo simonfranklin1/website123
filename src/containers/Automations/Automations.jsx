@@ -1,11 +1,11 @@
-import React from 'react'
+import "./Automations.css";
 
 const Automations = () => {
   return (
-    <section id="section5" style={{ background: "#fff" }}>
+    <section id="section5">
         <h2 class="title-page-green">Mensagens em massa</h2>
         <div class="card-container">
-            <div class="card2">
+            <div>
                 <div class="card-content">
                     <div class="card-image">
                         <img src="https://neongoldfish.com/wp-content/uploads/2023/08/chatbot3.jpg" alt="Relatorios" />
@@ -14,7 +14,7 @@ const Automations = () => {
                     <p class="card-text">Importe facilmente os dados de envio através de uma planilha online.</p>
                 </div>
             </div>
-            <div class="card2">
+            <div>
                 <div class="card-content">
                     <div class="card-image">
                         <img src="https://neongoldfish.com/wp-content/uploads/2023/08/chatbot3.jpg" alt="Mensagens" />
@@ -25,7 +25,7 @@ const Automations = () => {
                 </div>
             </div>
 
-            <div class="card2">
+            <div>
                 <div class="card-content">
                     <div class="card-image">
                         <img src="https://neongoldfish.com/wp-content/uploads/2023/08/chatbot3.jpg" alt="Calendario" />
