@@ -16,12 +16,13 @@ const Card = ({ title, text, image }) => {
                 ) || (
                     <div className="card-content">
                         <div style={{ marginBottom: "20px" }} className="card-icon">
-                            <img src="https://portais.univasf.edu.br/programadegestao/imagens/icon-whatsapp.png/@@images/image.png"
+                            <img src={image}
                                 alt="Itens" />
                         </div>
-                        <p className="card-title">WhatsApp's simultâneos</p>
-                        <p className="card-text">Gerencie vários números do WhatsApp em um só lugar. Simplifique sua comunicação
-                            e alcance seus clientes de forma eficiente com nossa plataforma.</p>
+                        <p className="card-title">{title}</p>
+                        <p className="card-text">
+                            {text}
+                        </p>
                     </div>
                 )
             }
