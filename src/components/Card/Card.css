@@ -1,0 +1,84 @@
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.295);
+    padding: 40px;
+    margin: 20px;
+    max-width: 600px;
+    flex: 1;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-icon img {
+    width: 50px;
+    height: auto;
+}
+
+.card-image img {
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    height: auto;
+    margin: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.card-title,
+.title-card {
+    color: #20CD8D;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.card-title-x {
+    color: #20CD8D;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    border-left: 5px solid #20CD8D;
+    margin-left: -15px;
+    padding-left: 10px;
+}
+
+
+.card-text {
+    margin-top: 0px;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    max-width: 300px;
+}
+
+.card-image-title {
+    color: #20CD8D;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.card-image-text {
+    margin-top: 0px;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    max-width: 300px;
+}
