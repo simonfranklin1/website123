@@ -9,13 +9,13 @@ const MobileNavbar = () => {
             <button className="dropbtn" onClick={() => setOpenMenu(prev => !prev)}>
                 {
                     openMenu ? (
-                     <i class="fa-solid fa-xmark"></i>   
+                        <i class="fa-solid fa-xmark"></i>
                     ) : (
-                      <i class="fa-solid fa-bars"></i>  
+                        <i class="fa-solid fa-bars"></i>
                     )
                 }
             </button>
-            <div className="mobile-menu" style={ openMenu ? { display: "flex"} : { display: "none"} } onClick={() => setOpenMenu(false)}>
+            <div className="mobile-menu" style={openMenu ? { display: "flex" } : { display: "none" }} onClick={() => setOpenMenu(false)}>
                 <a href="#section1">Início</a>
                 <a href="#section2">Sobre</a>
                 <a href="#section3">Recursos</a>

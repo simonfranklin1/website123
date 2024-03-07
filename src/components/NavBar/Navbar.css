@@ -42,7 +42,9 @@ nav a:active {
 @keyframes navegacao {
     from {
         width: 0;
-    } to {
+    }
+
+    to {
         width: 100%;
     }
 }
@@ -50,7 +52,9 @@ nav a:active {
 @keyframes scale-up-center {
     from {
         scale: 0.5;
-    } to {
+    }
+
+    to {
         scale: 1;
     }
 }
