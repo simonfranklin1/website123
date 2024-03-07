@@ -17,8 +17,8 @@ const Navbar = () => {
         <nav className="nav-tela-pequena">
             <div className="navbar">
                 <div className="dropdown">
-                    <button className="dropbtn">PÁGINAS
-                        <i className="fa fa-caret-down"></i>
+                    <button className="dropbtn">
+                        PÁGINAS <i className="fa fa-caret-down"></i>
                     </button>
                     <div className="dropdown-content">
                         <a href="#section1">Início</a>

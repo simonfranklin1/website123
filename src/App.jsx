@@ -1,5 +1,6 @@
 import { Navbar } from './components'
 import { API, Automations, Plans, Reports, Start, Support, WeOffer, WhatsAppConnections } from './containers'
+import Contact from './containers/Contact/Contact'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <API />
       <Support />
       <Plans />
+      <Contact />
     </div>
   )
 }

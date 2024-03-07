@@ -5,7 +5,7 @@ const Plans = () => {
         <section id="section8">
             <h2 className="title-page-withe">Nossos Planos</h2>
             <div className="card-container">
-                <div className="card">
+                <div className="plans-card">
                     <div className="card-content">
                         <div className="card-icon">
                             <img src="https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle.png" alt="BOT" />
@@ -19,7 +19,7 @@ const Plans = () => {
                         <li>Até 2 WhatsApp's simultâneos</li>
                     </ul>
                 </div>
-                <div className="card">
+                <div className="plans-card">
                     <div className="card-content">
                         <div className="card-icon">
                             <img src="https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle.png" alt="BOT" />
@@ -34,11 +34,11 @@ const Plans = () => {
                         <li>Integração Via API.</li>
                     </ul>
                 </div>
-                <div className="card">
+                <div className="plans-card">
                     <div className="card-content">
                         <div className="card-icon">
                             <img src="https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle.png" alt="Descrição da imagem" />
-                            <span>R$ 150,00/M</span>
+                            <span>R$ 90,00/M</span>
                         </div>
                     </div>
                     <p className="card-title-x">PLANO PREMIUM</p>

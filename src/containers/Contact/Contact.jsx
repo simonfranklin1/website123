@@ -1,4 +1,4 @@
-import React from 'react'
+import { CustomButton } from "../../components"
 
 const Contact = () => {
     return (
@@ -8,18 +8,14 @@ const Contact = () => {
                     <div className="card-content4">
                         <div className="card-image4">
                             <img
-                                style="margin-bottom:20px;"
+                                style={{ marginBottom: "20px" }}
                                 src="https://cdn-icons-png.flaticon.com/512/78/78925.png"
                                 alt="Descrição da imagem"
                             />
                         </div>
                         <h2 className="title-page-withe">Venha saber mais?</h2>
-                        <button
-                            onClick={() => window.location.href = 'https://api.whatsapp.com/send?phone=553183181298&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais.'}
-                        >
-                            CHAMAR NO WHATSAPP
-                        </button>
-                        <p className="card-text4" style="margin-top:10px;">Também estamos disponiveis no chat ao lado!</p>
+                        <CustomButton title={"CHAMAR NO WHATSAPP"} handleClick={() => window.location.href = 'https://api.whatsapp.com/send?phone=553183181298&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais.'} />
+                        <p className="card-text4" style={{ marginTop: "10px" }}>Também estamos disponiveis no chat ao lado!</p>
                     </div>
                 </div>
             </div>
