@@ -1,9 +1,9 @@
 import Navbar from "./NavBar/Navbar";
 import Card from "./Card/Card.jsx";
-import CustomButton from "./CustomButton/CustomButton.jsx";
+import Button from "./Button/Button.jsx";
 
 export {
     Navbar,
     Card,
-    CustomButton
+    Button
 }
